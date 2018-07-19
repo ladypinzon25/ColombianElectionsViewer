@@ -1,0 +1,23 @@
+.Options{
+  padding: 10px 0 0 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.title-options{
+  font-weight: bold!important;
+}
+.Options.MuiTypography-body1-53{
+  color: #455A64!important;
+}
+.Options.MuiFormLabel-root-5 {
+  color: #455A64 !important;
+}
+.subtitle{
+  color: dimgrey;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  margin-top: 20px;
+}

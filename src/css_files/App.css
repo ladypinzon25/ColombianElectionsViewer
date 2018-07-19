@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+.App-header {
+}
+.panel-left{
+  z-index: 5;
+  width: 370px;
+
+  background-color: #EEEEEE;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.panel-right{
+  width: calc(100vw - 370px);
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.panel-right-intro {
+  width: calc(100vw - 370px);
+  height: 105vh;
+  background-color: #3F51B5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.panel-right-intro__title, .panel-right-intro__description{
+  width: 400px;
+}
+.panel-right-intro__title{
+  color: white;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin-bottom: 35px;
+  margin-right: 50px;
+}
+.panel-right-intro__description{
+  color: white;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  line-height: 1.4;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.MuiButtonBase-root-19.MuiButton-root-60.MuiButton-fab-75.MuiButton-contained-69.MuiButton-containedPrimary-70.MuiButton-raised-72.MuiButton-raisedPrimary-73.panel-right-intro__xmaterial-button{
+  margin: 0 10px 10px 0!important;
+}
+.panels-container{
+  display: flex;
+}
+.vega-actions{
+  display: none;
+}
+.MuiButton-containedPrimary-11{
+  background-color: #00bcd4!important;
+  margin: 0 50px 50px 0!important;
+}
+.MuiIconButton-root-13{
+ height: 45px!important;
+}
+.disappear {
+  animation: movePanel 2s forwards;
+}
+@keyframes  movePanel{
+  0%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(1000px);
+    display: none;
+  }
+}
+
+
