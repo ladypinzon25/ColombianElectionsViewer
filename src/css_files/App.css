@@ -6,7 +6,7 @@
 .panel-left{
   z-index: 5;
   width: 370px;
-
+  height: 105vh;
   background-color: #EEEEEE;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
@@ -62,7 +62,7 @@
 }
 .panel-right-intro__material-button{
   background-color: #00bcd4!important;
-  margin: 0 50px 50px 0!important;
+  margin: 0 50px 15vh 0!important;
 }
 .MuiIconButton-root-13{
  height: 45px!important;

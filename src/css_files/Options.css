@@ -3,6 +3,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
+  height: 105vh;
 }
 .title-options{
   font-weight: bold!important;
