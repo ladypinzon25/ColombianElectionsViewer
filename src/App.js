@@ -92,7 +92,7 @@ class App extends Component {
               <div className="panel-right-intro__description">This application allows you to explore the information related to the 2018 presidential
                 elections in Colombia. Here you can select exactly what you want to know more about it and compare it by department. For example, you
                 can compare how many votes got Petro and Duque by department.</div>
-              <Button onClick = {this.updatePanel} variant="fab" color="primary" aria-label="Add" className="panel-right-intro__xmaterial-button">
+              <Button onClick = {this.updatePanel} variant="fab" color="primary" aria-label="Add" className="panel-right-intro__material-button">
                 <AddIcon />
               </Button>
             </div>
